@@ -15,7 +15,7 @@ type Input struct {
 func Day1() {
 	res_part1 := 0
 	res_part2 := 0
-	input, err := utils.ReadCsvFile("/aoc2024/day1_data/input.csv")
+	input, err := utils.ReadCsvFile("/aoc2024/day1_data/input.csv", true)
 	if err != nil {
 		//handle error after log configuration
 	}
